@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44147" started-at="2015-05-23T02:54:50Z" finished-at="2015-05-23T02:55:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44147" started-at="2015-05-23T02:54:50Z" finished-at="2015-05-23T02:55:34Z">
+      <class name="SignUpTest.TestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SignUpTest.TestCase@fb5265f]" name="setup" is-config="true" duration-ms="16" started-at="2015-05-22T19:54:50Z" finished-at="2015-05-22T19:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupBeforeEveryTest()[pri:0, instance:SignUpTest.TestCase@fb5265f]" name="setupBeforeEveryTest" is-config="true" duration-ms="22030" started-at="2015-05-22T19:54:50Z" finished-at="2015-05-22T19:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeEveryTest -->
+        <test-method status="PASS" signature="successfulSignUpTest()[pri:0, instance:SignUpTest.TestCase@fb5265f]" name="successfulSignUpTest" duration-ms="1427" started-at="2015-05-22T19:55:12Z" finished-at="2015-05-22T19:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulSignUpTest -->
+        <test-method status="PASS" signature="setupBeforeEveryTest()[pri:0, instance:SignUpTest.TestCase@fb5265f]" name="setupBeforeEveryTest" is-config="true" duration-ms="13878" started-at="2015-05-22T19:55:14Z" finished-at="2015-05-22T19:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeEveryTest -->
+        <test-method status="PASS" signature="yahooSignUpTest()[pri:0, instance:SignUpTest.TestCase@fb5265f]" name="yahooSignUpTest" duration-ms="6139" started-at="2015-05-22T19:55:27Z" finished-at="2015-05-22T19:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooSignUpTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SignUpTest.TestCase@fb5265f]" name="teardown" is-config="true" duration-ms="657" started-at="2015-05-22T19:55:34Z" finished-at="2015-05-22T19:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SignUpTest.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

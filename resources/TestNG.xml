@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sign Up Test" thread-count="3" parallel="tests" >
+ 
+  <test name="Sign Up Chrome">
+  <parameter name="browser" value="Chrome" />
+	<groups>
+		<run>
+			<include name="P1" />
+			<include name="P2" />
+			<include name="P3" />
+		</run>
+	</groups>
+ 	</test>
+ 	
+ 	<test name="Sign Up Firefox">
+  	<parameter name="browser" value="Firefox" />
+	<classes>
+		<class name="SignUpTest.TestCase" />
+	</classes>
+  </test>
+  
+  <test name="Sign Up IE">
+  <parameter name="browser" value="IE" />
+	<groups>
+		<run>
+			<include name="P1" />
+			<include name="P2" />
+			<include name="P3" />
+		</run>
+	</groups>
+ 	</test>
+ 
+</suite>
